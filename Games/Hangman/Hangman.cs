@@ -63,7 +63,7 @@ namespace Hangman
                     if(HasWon(word, letters)){
                         Console.WriteLine("YOU WIN");
                         DisplayWord(word, letters);
-                        return;
+                        break;
                     };
                 }
                 else
